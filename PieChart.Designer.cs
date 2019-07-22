@@ -1,13 +1,13 @@
 ﻿namespace KenShow
 {
-    partial class UserControl1
+    partial class PieChart
     {
-        /// <summary>
+        /// <summary> 
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
+        /// <summary> 
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
@@ -22,7 +22,7 @@
 
         #region Component Designer generated code
 
-        /// <summary>
+        /// <summary> 
         /// Required method for Designer support - do not modify 
         /// the contents of this method with the code editor.
         /// </summary>
@@ -30,12 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // UserControl1
+            // PieChart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Name = "UserControl1";
+            this.Name = "PieChart";
             this.Size = new System.Drawing.Size(400, 400);
+            this.Load += new System.EventHandler(this.PieChart_Load);
+            this.Resize += new System.EventHandler(this.PieChart_Resize);
             this.ResumeLayout(false);
 
         }
